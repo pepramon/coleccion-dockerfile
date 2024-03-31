@@ -2,8 +2,7 @@
 
 usuario=pepramon
 
-echo "\n\n ATENCIÓN --> Si no estas logueado en Docker Hub, \n\n"\ 
-"no se subiran las imagenes automaticamente \n\n"
+echo -e "\n\n ATENCIÓN --> Si no estas logueado en Docker Hub,\n\n no se subiran las imagenes automaticamente \n\n"
 
 
 ## Simple-samba, consturcción y push
