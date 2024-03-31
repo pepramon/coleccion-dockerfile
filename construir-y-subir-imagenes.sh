@@ -6,5 +6,5 @@ echo -e "\n\nATENCIÓN --> Si no estas logueado en Docker Hub,\nno se subiran la
 sleep 1
 
 ## Simple-samba, consturcción y push
-docker build -t $usuario/simple-samba ./simple-samba/.
-docker push $usuario/simple-samba
+docker build -t $usuario/simple-samba:latest ./simple-samba/.
+docker push $usuario/simple-samba:latest
