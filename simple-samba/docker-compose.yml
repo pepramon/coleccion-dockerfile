@@ -1,0 +1,15 @@
+version: "3"
+services:
+  samba:
+    image: pepramon/simple-samba
+    restart: on-failure
+    environment:
+      USER: "samba"
+      PASS: "secret"
+      UID: 1000    # Opcional, por defecto 1000
+      GID: 1000    # Opcional, por defecto 1000
+      RW: true     # Opcional, por defecto true
+    ports:
+      - 445:445
+    volumes:
+      - ./almacen:/almacen
