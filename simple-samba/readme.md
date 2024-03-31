@@ -4,6 +4,8 @@ Implementación sencilla de samba, está pensada para que SOLO comparta un direc
 
 Por defecto asigna los ficheros al usuario con UID=1000 y al grupo GUD=1000, aunque puede cambiarse en la configuración mediante variables de entorno
 
+Repositorio --> [https://github.com/pepramon/coleccion-dockerfile](https://github.com/pepramon/coleccion-dockerfile)
+
 ## Como usar
 
 Via `docker-compose`
