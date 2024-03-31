@@ -62,5 +62,5 @@ if [ -e "/etc/samba/smb.custom" ]; then
     exec smbd --configfile=/etc/samba/smb.custom --foreground --debug-stdout --debuglevel=1 --no-process-group
 else
     echo "Arrancando con configuración normal"
-    exec smbd --debug-stdout --debuglevel=1 --no-process-group
+    exec smbd --foreground --debug-stdout --debuglevel=1 --no-process-group
 fi
