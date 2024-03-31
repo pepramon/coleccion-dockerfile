@@ -2,8 +2,8 @@
 
 usuario=pepramon
 
-echo -e "\n\n ATENCIÓN --> Si no estas logueado en Docker Hub,\n\n no se subiran las imagenes automaticamente \n\n"
-
+echo -e "\n\nATENCIÓN --> Si no estas logueado en Docker Hub,\nno se subiran las imagenes automaticamente \n\n"
+sleep 1
 
 ## Simple-samba, consturcción y push
 docker build -t $usuario/simple-samba ./simple-samba/.
