@@ -2,7 +2,9 @@
 
 Implementación sencilla de samba, está pensada para que SOLO comparta un directorio para un usuario que se debe incluir en la configuración.
 
-Por defecto asigna los ficheros al usuario con UID=1000 y al grupo GUD=1000, aunque puede cambiarse en la configuración mediante variables de entorno
+Por defecto asigna los ficheros al usuario con UID=1000 y al grupo GUD=1000, aunque puede cambiarse en la configuración mediante variables de entorno.
+
+Esta basado en [https://github.com/dockur/samba](https://github.com/dockur/samba) donde se han hecho pull request, aunque al final se ha preferido tener repositorio propio.
 
 Repositorio --> [https://github.com/pepramon/coleccion-dockerfile](https://github.com/pepramon/coleccion-dockerfile)
 
